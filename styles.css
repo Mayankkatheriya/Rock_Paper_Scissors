@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 45px 10px rgba(41, 14, 14, 0.75);
+}
+h1{
+    font-size: 2.5rem;
+    color: darkgoldenrod;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    color: rgb(231, 100, 24);
+    margin-bottom: 0.5rem;
+}
+.sign-Container{
+    margin-bottom: 1rem;
+}
+button{
+    padding: 8px;
+    width: 80px;
+    border: none;
+    outline: none;
+    font-size: 3rem;
+}
+#rock{
+    background-color: cyan;
+}
+#paper{
+    background-color: blanchedalmond;
+}
+#scissors{
+    background-color: orange;
+}
+.result{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: red;
+    font-weight: 500;
+}
+.scores{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+h4{
+    color: blue;
+    font-size: 1.2rem;
+}
+#your-score{
+    font-size: 2rem;
+    color: green;
+}
+#computer-score{
+    font-size: 2rem;
+    color: red;
+}
